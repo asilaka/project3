@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.box1{
+    width: 200px;
+    transition: 1.5s;
+    border: 1px red solid;
+
+}
+.box1:hover{
+    width: 300px;
+    transition: 1.5s;
+}
+
+.wrap{
+display: flex;
+flex-direction: column;
+}
